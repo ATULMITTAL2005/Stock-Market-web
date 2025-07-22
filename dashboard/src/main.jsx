@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 
 import Home from "./components/Home.jsx";
-import SymbolSearchDashboard from "./components/SymbolSearchDashboard.jsx";
+// import SymbolSearchDashboard from "./components/SymbolSearchDashboard.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/*" element={<Home />} />
-        <Route path = "/SymbolSearchDashboard" element = {<SymbolSearchDashboard/>}/>
+        {/* <Route path = "/SymbolSearchDashboard" element = {<SymbolSearchDashboard/>}/> */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
