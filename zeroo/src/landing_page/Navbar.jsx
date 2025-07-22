@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light"  style={{backgroundColor:"red"}}>
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/"><img src ='public/media/logo.svg'  style={{width:"25%" ,display:"flex"}}></img></Link>
+        <Link className="navbar-brand" to="/"><img src ='/media/logo.svg'  style={{width:"25%" ,display:"flex"}}></img></Link>
         <button
           className="navbar-toggler"
           type="button"
