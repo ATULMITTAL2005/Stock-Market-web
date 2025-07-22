@@ -9,7 +9,7 @@ function RightImage() {
             <a href =""  style={{textAlign:"justify"}}>Learn More</a>
           </div>
           <div className="col-6">
-            <img src ="/public/media/console.png"></img>
+            <img src ="/media/console.png"></img>
           </div>
 
           </div>

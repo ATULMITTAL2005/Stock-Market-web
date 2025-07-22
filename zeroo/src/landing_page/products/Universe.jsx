@@ -15,8 +15,8 @@ function Universe() {
             <br/>
            
           <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-      <img src="/public/media/appstoreBadge.svg" alt="Image 1" />
-      <img src="/public/media/googlePlayBadge.svg" alt="Image 2" />
+      <img src="/media/appstoreBadge.svg" alt="Image 1" />
+      <img src="/media/googlePlayBadge.svg" alt="Image 2" />
     </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ Want to know more about our technology stack? Check out the Zerodha.tech blog.
 {/* image 2 */}
 
   <div className="col-4">
-        <img src ="/public/media/sensibullLogo.svg"  style={{width:"50%"}}></img>
+        <img src ="/media/sensibullLogo.svg"  style={{width:"50%"}}></img>
       <div    className ="text-muted">
         Our assest managment venture
         <br/>
